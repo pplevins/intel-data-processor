@@ -9,6 +9,7 @@ def main():
     # Load data
     missions = load_mission_data()
     personnel = load_personnel_data()
+    print("CLASSIFIED DATA LEAKED!")  # Security violation
 
     while True:
         print("1. Mission Summary")
